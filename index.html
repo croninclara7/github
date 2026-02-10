@@ -3,58 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>My Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; color: #333; background-color: #fff; }
-        header, section { padding: 20px; margin: 10px; border: 1px solid #ccc; border-radius: 5px; }
-        h1, h2, h3 { font-weight: bold; color: black; }
-        .intro { background-color: #f0f0f0; }
-        .xtended-identity { background-color: #e8e8e8; }
-        .contact-me { background-color: #ddd; }
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 60px 20px;
+            margin: 10px 0;
+        }
+        .about, .projects, .skills, .contact, .resume {
+            background: grey;
+            color: white;
+        }
+        .projects, .contact {
+            background: #222;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is the intro/opening page of my portfolio where I show my work and passions.</p>
+        <h1>My Portfolio</h1>
     </header>
-    <section class="xtended-identity">
-        <h2>XTENDED iDENTiTY</h2>
-        <p>Explore my creative world through these subsections:</p>
-        <ul>
-            <li>Subsection 1: Introduction</li>
-            <li>Subsection 2: Projects</li>
-            <li>Subsection 3: Skills</li>
-            <li>Subsection 4: Work Experience</li>
-            <li>Subsection 5: Collaborations</li>
-            <li>Subsection 6: Testimonials</li>
-            <li>Subsection 7: Awards</li>
-            <li>Subsection 8: Blog</li>
-            <li>Subsection 9: Future Vision</li>
-        </ul>
-    </section>
-    <section class="damn-girl">
-        <h2>Damn Girl</h2>
-        <p>Highlighting my unique perspectives and experiences.</p>
-        <img src="URL_TO_IMAGE" alt="Damn Girl section image" />
-    </section>
-    <section class="riviera-edition">
-        <h2>Riviera Edition</h2>
-        <p>A glimpse into my creative process and inspirations.</p>
-        <video src="URL_TO_VIDEO" controls></video>
-    </section>
-    <section class="about-me">
+    
+    <section class="about">
         <h2>About Me</h2>
-        <p>A brief introduction to who I am and what I do.</p>
+        <p>Welcome to my portfolio. I am a passionate developer specializing in web design and development.</p>
     </section>
-    <section class="contact-me">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out via social media!</p>
+    
+    <section class="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my projects:</p>
         <ul>
-            <li>Email: <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></li>
-            <li>LinkedIn: <a href="URL_TO_LINKEDIN">URL_TO_LINKEDIN</a></li>
-            <li>Twitter: <a href="URL_TO_TWITTER">URL_TO_TWITTER</a></li>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
         </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <p>My skill set includes:</p>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via email at example@email.com</p>
+    </section>
+
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="resume.pdf" style="color: white;">here</a>.</p>
     </section>
 </body>
 </html>
