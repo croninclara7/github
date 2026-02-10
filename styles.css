@@ -1,0 +1,41 @@
+.portfolio {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding: 50px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #000000;
+}
+
+.section {
+  padding: 20px;
+  border-bottom: 1px solid #cccccc;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333333;
+  color: #ffffff;
+}
